@@ -8,7 +8,7 @@ const loadPage = window.addEventListener('load', () => {
     main.insertBefore(joinOurProgramSection, main.children[4]);
 
     const headline = document.createElement('h1');
-    headline.className = 'app-title';
+    headline.className = 'app-title--ourprogram';
     headline.innerText = 'Join Our Program';
     joinOurProgramSection.appendChild(headline);
 
