@@ -55,9 +55,10 @@ export class SectionCreator {
         setTimeout(function () {
             let mainTag = document.getElementById('app-container');
             let removeMainTag = mainTag.children[4];
+            removeMainTag.remove();
         }, 2000)
     }
-}
+};
 
 
 
