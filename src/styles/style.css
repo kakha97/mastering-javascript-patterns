@@ -276,7 +276,7 @@ main {
 }
 
 .app-section--subscribe {
-  width: 110px;
+  width: auto;
   height: 36px;
   border: none;
   background: #55C2D8;
